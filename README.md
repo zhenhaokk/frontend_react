@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# dongkk.com portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Portable React portfolio, migrated from Hostinger in October 2026.
 
-## Available Scripts
+## Run and publish
 
-In the project directory, you can run:
+Requires Node.js 22.12+ or a compatible newer version.
 
-### `npm start`
+    npm ci
+    npm start
+    npm run build
+    npm run preview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Upload the contents of dist/ to Cloudflare Workers Static Assets. The project is static-only: no Worker script, database, paid subscription, or runtime API token is required. wrangler.jsonc also supports a future authorized CLI deployment with npm run deploy.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Update content
 
-### `npm test`
+- Edit src/content.json for projects, skills, work experience, testimonials, and brands.
+- Images are stored in public/content/; use /content/filename.webp in the JSON.
+- Contact details are in src/container/Footer/Footer.jsx.
+- The CV is in src/assets/zhenhao_dong_CV.pdf.
+- Rebuild and redeploy after making changes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The current content is a snapshot of the published Sanity portfolio. Sanity changes no longer appear automatically. No contacts, messages, private drafts, or CMS credentials are included in the snapshot. The contact link opens the visitor's email app; it does not store messages in a database.
 
-### `npm run build`
+## Hosting and domain
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Keep dongkk.com registered and renewed independently of hosting. Cloudflare DNS and static hosting use the free plan. Buying paid Workers, storage, AI APIs, or mailbox services is a separate decision. Website hosting does not include a full email mailbox.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Retain a local copy of this source and the latest working dist/. The build is portable to another static hosting provider if needed.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The DM Sans font is self-hosted under the license in public/fonts/OFL.txt.
