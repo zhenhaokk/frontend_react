@@ -13,6 +13,12 @@ Requires Node.js 22.12+ or a compatible newer version.
 
 Upload the contents of dist/ to Cloudflare Workers Static Assets. The project is static-only: no Worker script, database, paid subscription, or runtime API token is required. wrangler.jsonc also supports a future authorized CLI deployment with npm run deploy.
 
+## Continuous integration and deployment
+
+GitHub Actions builds pull requests and pushes to master using npm ci and npm run build. The workflow has read-only repository permissions and does not contain deployment credentials. Node.js is pinned in .node-version for consistent local and hosted builds.
+
+Cloudflare Workers Builds can connect this repository to the existing dongkk-portfolio Worker: production branch master, root directory /, build command npm run build, deploy command npx wrangler deploy. Only the production branch should publish to dongkk.com. Failed builds leave the previous deployed version running. Domain routes are in wrangler.jsonc; HTTPS certificates and HTTP-to-HTTPS redirects are managed separately in Cloudflare and persist across website deployments.
+
 ## Update content
 
 - Edit src/content.json for projects, skills, work experience, testimonials, and brands.
