@@ -17,7 +17,9 @@ Upload the contents of dist/ to Cloudflare Workers Static Assets. The project is
 
 GitHub Actions builds pull requests and pushes to master using npm ci and npm run build. The workflow has read-only repository permissions and does not contain deployment credentials. Node.js is pinned in .node-version for consistent local and hosted builds.
 
-Cloudflare Workers Builds can connect this repository to the existing dongkk-portfolio Worker: production branch master, root directory /, build command npm run build, deploy command npx wrangler deploy. Only the production branch should publish to dongkk.com. Failed builds leave the previous deployed version running. Domain routes are in wrangler.jsonc; HTTPS certificates and HTTP-to-HTTPS redirects are managed separately in Cloudflare and persist across website deployments.
+Cloudflare Workers Builds connects this repository to the existing dongkk-portfolio Worker: production branch master, root directory /, build command npm run build, deploy command npx wrangler deploy. Preview builds are disabled; other branches do not publish to dongkk.com. Failed builds leave the previous deployed version running. Domain routes are in wrangler.jsonc; HTTPS certificates and HTTP-to-HTTPS redirects are managed separately in Cloudflare and persist across website deployments.
+
+Push changes to a feature branch and review the GitHub build check before merging into master. A push to master starts the production build automatically. Its status and deployment logs are available under Cloudflare Workers & Pages > dongkk-portfolio > Deployments. To restore a previous release, use Rollback on a known-good deployment there. Keep the Cloudflare Workers and Pages GitHub app restricted to this repository. Deployment credentials are managed by Cloudflare Builds and must not be committed to this repository.
 
 ## Update content
 
