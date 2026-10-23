@@ -1,0 +1,457 @@
+{
+  "abouts": [
+    {
+      "_createdAt": "2022-04-17T08:51:05Z",
+      "_id": "0f70794e-1c3a-433e-a414-d9c103c55dfa",
+      "_rev": "JINGul8Kijez39dd41PMsr",
+      "_type": "abouts",
+      "_updatedAt": "2022-04-17T08:51:05Z",
+      "description": "I am a backend developer with a passion for build beautiful and functional website",
+      "imgUrl": "/content/90d71de50f2c6659156500e7a4d76a618e1fcd63-1200x900.webp",
+      "title": "Backend Developer"
+    },
+    {
+      "_createdAt": "2022-04-17T08:50:10Z",
+      "_id": "8d0b5995-4bb8-4ebf-b7af-8b4ce9a16449",
+      "_rev": "TQ9DwvzJPUrCgUs2A8OjH2",
+      "_type": "abouts",
+      "_updatedAt": "2022-04-17T08:50:10Z",
+      "description": "I am a React developer with a passion for build beautiful and functional website",
+      "imgUrl": "/content/65ed72deac647aa84f75c5af8f6284ab926931b0-1200x900.webp",
+      "title": "React Developer"
+    },
+    {
+      "_createdAt": "2022-04-17T08:48:17Z",
+      "_id": "b69e7685-73c6-494d-8ead-51178d7e6096",
+      "_rev": "NUCflQCHpsVC5moLKHObBx",
+      "_type": "abouts",
+      "_updatedAt": "2022-04-17T08:49:05Z",
+      "description": "I am a web designer with a passion for build beautiful and functional website",
+      "imgUrl": "/content/b62651ef34a9e54c354ee437545acc348fbf0505-1200x900.webp",
+      "title": "Web Designer"
+    },
+    {
+      "_createdAt": "2022-04-17T08:45:47Z",
+      "_id": "b9e2d99e-e5c7-4e9f-aa65-f83107c16cb1",
+      "_rev": "JINGul8Kijez39dd41P8wf",
+      "_type": "abouts",
+      "_updatedAt": "2022-04-17T08:45:47Z",
+      "description": "I am a frontend developer with a passion for build beautiful and functional website",
+      "imgUrl": "/content/db53adca404b7410a2869db815e4ce77da2e7e53-1200x900.webp",
+      "title": "Frontend Developer"
+    }
+  ],
+  "works": [
+    {
+      "_createdAt": "2022-05-21T11:22:24Z",
+      "_id": "27a0fc1c-7d10-435e-bff3-78414e050b61",
+      "_rev": "YvT3EEwfG7cpkPbzASGzs2",
+      "_type": "works",
+      "_updatedAt": "2022-05-21T11:24:14Z",
+      "codeLink": "https://github.com/zhenhaokk/client_medicl",
+      "description": "a community where people can chat",
+      "imgUrl": "/content/640ab7662b885536433524fdcfb5ce7098bacdc0-2076x1312.webp",
+      "projectLink": "https://medical-chart-js.netlify.app/",
+      "tags": [
+        "React JS",
+        "All"
+      ],
+      "title": "Medical Chart"
+    },
+    {
+      "_createdAt": "2022-04-17T11:31:19Z",
+      "_id": "5116d219-7833-4fe6-a64e-bd8f743c4e06",
+      "_rev": "71zLrGV30YcVLgujAxDuyU",
+      "_type": "works",
+      "_updatedAt": "2022-04-21T10:45:03Z",
+      "codeLink": "https://github.com/zhenhaokk/souta-web",
+      "description": "This a  restaurant website.",
+      "imgUrl": "/content/e89044eed96e35a3b27cc4cea039e36e4569c5b9-3804x1862.webp",
+      "projectLink": "http://souta-jap.site/",
+      "tags": [
+        "UI/UX",
+        "All",
+        "React JS"
+      ],
+      "title": "SOUTA"
+    },
+    {
+      "_createdAt": "2022-05-25T10:24:40Z",
+      "_id": "58261996-1d4f-4c1d-b145-ea18f80beaa0",
+      "_rev": "r2Eai48q670W4lOjZQiO07",
+      "_type": "works",
+      "_updatedAt": "2022-05-25T10:24:40Z",
+      "codeLink": "https://github.com/zhenhaokk/ecommence",
+      "description": "ecommerce store for example",
+      "imgUrl": "/content/8f5f8caf843d9fd14757b270a7df500bf49482bf-3208x1996.webp",
+      "projectLink": "https://ecommence-dzh.vercel.app/",
+      "tags": [
+        "React JS",
+        "All",
+        "Web App"
+      ],
+      "title": "ecommerce"
+    },
+    {
+      "_createdAt": "2022-04-17T11:25:27Z",
+      "_id": "5cca684c-1819-46cd-874f-bc8b093a4d25",
+      "_rev": "71zLrGV30YcVLgujB723ac",
+      "_type": "works",
+      "_updatedAt": "2022-04-26T10:29:14Z",
+      "codeLink": "https://github.com/Qiming-Liu/ThinkMoreForum-Frontend",
+      "description": "ThinkMore Forum is place for people to make any kind of disscusion, where people come together to share their opinion.",
+      "imgUrl": "/content/bc9d14323ccbafba041057043b6de2597b9a52fb-3156x2042.webp",
+      "projectLink": "https://www.thinkmoreapp.com/",
+      "tags": [
+        "Web App",
+        "All",
+        "React JS",
+        "Mobile App"
+      ],
+      "title": "ThinkMore Forum "
+    },
+    {
+      "_createdAt": "2022-06-18T01:07:53Z",
+      "_id": "5e48e7f4-29c4-426f-bfe4-627b6a9d1a6b",
+      "_rev": "CWO9ZHvBTtaB0rfhwbMBMI",
+      "_type": "works",
+      "_updatedAt": "2022-06-18T01:10:13Z",
+      "codeLink": "https://github.com/zhenhaokk/gym",
+      "description": "A web app for gym and exercises",
+      "imgUrl": "/content/a8b35414f169a859ef204544a631f8a1899ea954-2912x1436.webp",
+      "projectLink": "https://dzh-gym.netlify.app",
+      "tags": [
+        "React JS",
+        "All",
+        "Web App"
+      ],
+      "title": "GYM APP"
+    },
+    {
+      "_createdAt": "2022-06-16T07:56:13Z",
+      "_id": "6f195ef3-5e3e-49f4-b91c-f94fd6c2bea0",
+      "_rev": "CWO9ZHvBTtaB0rfhwXwuuk",
+      "_type": "works",
+      "_updatedAt": "2022-06-16T07:59:09Z",
+      "codeLink": "https://github.com/zhenhaokk/client-m",
+      "description": "it is a full stack social media app",
+      "imgUrl": "/content/dbb9326214c52f5a40c88925f0691ecf53038203-3268x1658.webp",
+      "projectLink": "https://memoriesjs.com/#/posts",
+      "tags": [
+        "React JS",
+        "Web App",
+        "Mobile App",
+        "All"
+      ],
+      "title": "MERN STACK social media app"
+    },
+    {
+      "_createdAt": "2022-05-01T18:18:34Z",
+      "_id": "79d5e6b2-1aa2-4fef-a219-95062352a6cf",
+      "_rev": "Q5wZEpzfbd9rV22iAM3qpw",
+      "_type": "works",
+      "_updatedAt": "2022-05-01T18:21:36Z",
+      "codeLink": "https://github.com/zhenhaokk/web3.0",
+      "description": "With a stunning design, connected to the blockchain, metamask pairing, interaction with smart contracts, sending Ethereum through the blockchain network, writing solidity code, and much more, ",
+      "imgUrl": "/content/c987d5927b8d26cc0afe2cb361f03720c4655fdc-2538x1502.webp",
+      "projectLink": "https://d-crypto-web.tech/",
+      "tags": [
+        "React JS",
+        "Web App",
+        "All"
+      ],
+      "title": "Web3.0 Blockchain App"
+    },
+    {
+      "_createdAt": "2022-05-22T16:20:57Z",
+      "_id": "7d3a96f9-f188-4034-9b25-e01970e94028",
+      "_rev": "Qr5HZErql8NPjRYQuwAOuw",
+      "_type": "works",
+      "_updatedAt": "2022-05-22T16:22:43Z",
+      "codeLink": "https://github.com/zhenhaokk/cms_blog",
+      "description": "My personal Blog",
+      "imgUrl": "/content/22c2cc848a9f4328dd151dcb5d544c52869e1acf-3218x1690.webp",
+      "projectLink": "https://cms-blog-three-sooty.vercel.app/",
+      "tags": [
+        "All",
+        "React JS",
+        "Web App"
+      ],
+      "title": "CMS BLOG"
+    },
+    {
+      "_createdAt": "2022-06-03T06:24:33Z",
+      "_id": "a1634d7e-71c3-472d-b956-d5d8f461ffd6",
+      "_rev": "EJPB8vuKsUQzYmuM7HLWIR",
+      "_type": "works",
+      "_updatedAt": "2022-06-03T06:30:52Z",
+      "codeLink": "https://github.com/zhenhaokk/dashbord",
+      "description": "A sample dashbord app",
+      "imgUrl": "/content/da292d0cd1b6e76816cbd03b9214341e091298d1-2250x1450.webp",
+      "projectLink": "https://zhenhao-dashbord.netlify.app/",
+      "tags": [
+        "React JS",
+        "Web App",
+        "All"
+      ],
+      "title": "Dashbord"
+    },
+    {
+      "_createdAt": "2022-04-17T12:31:02Z",
+      "_id": "a564d184-0531-4f4d-9403-ea9b718bac4c",
+      "_rev": "dEFIOHoYyCUIVzdu8WwbxK",
+      "_type": "works",
+      "_updatedAt": "2022-05-01T07:10:29Z",
+      "codeLink": "https://github.com/zhenhaokk/goggl",
+      "description": "A Google Clone APP",
+      "imgUrl": "/content/5db6cc8cc66afb19f7dc4720313795805a71e7f4-3490x2618.webp",
+      "projectLink": "https://d-goggl.netlify.app",
+      "tags": [
+        "React JS",
+        "All",
+        "Web App"
+      ],
+      "title": "D- Goggl"
+    },
+    {
+      "_createdAt": "2022-05-04T13:01:38Z",
+      "_id": "b46cc553-dcec-4b30-9cf5-c987424547c3",
+      "_rev": "TdboPKuuXe2Xo36DQCN8LJ",
+      "_type": "works",
+      "_updatedAt": "2022-05-04T13:04:26Z",
+      "codeLink": "https://github.com/zhenhaokk/sharepro_frontend",
+      "description": "A web platform where people can share everything",
+      "imgUrl": "/content/f78a21c5fbc3e9acb9ea952fb91fb6a12a2123b3-2252x1606.webp",
+      "projectLink": "https://www.sharepro-me.online/",
+      "tags": [
+        "React JS",
+        "UI/UX",
+        "All",
+        "Mobile App"
+      ],
+      "title": "ShareMe"
+    },
+    {
+      "_createdAt": "2022-04-26T08:57:14Z",
+      "_id": "c3f339a3-91cc-4a36-8e25-d5f0bc8ef91b",
+      "_rev": "0Pg950b6kAircfiCIPH6k4",
+      "_type": "works",
+      "_updatedAt": "2022-04-29T09:58:38Z",
+      "codeLink": "https://github.com/zhenhaokk/trval_advisor",
+      "description": "This a app allow user to find attraction around the place",
+      "imgUrl": "/content/93de0861e92bfb572f40f38ffaa0c59adb31a49e-2862x2466.webp",
+      "projectLink": "https://travel-advisor-d.netlify.app/",
+      "tags": [
+        "React JS",
+        "UI/UX",
+        "Web App",
+        "Mobile App"
+      ],
+      "title": "travel-advisor"
+    },
+    {
+      "_createdAt": "2022-04-29T08:24:41Z",
+      "_id": "fb893c6b-cf46-46be-b9d8-80c73f14a6b6",
+      "_rev": "dEFIOHoYyCUIVzdu8Vzyaa",
+      "_type": "works",
+      "_updatedAt": "2022-04-29T08:24:41Z",
+      "codeLink": "https://github.com/zhenhaokk/zh_realesate",
+      "description": "A realesate website allouser tosearch properties for they need",
+      "imgUrl": "/content/3b290043f65f1be727cc95f19c1c9f4a2d61de52-3010x2394.webp",
+      "projectLink": "https://zh-realesate.vercel.app/",
+      "tags": [
+        "Next JS",
+        "Web App",
+        "UI/UX",
+        "Mobile App",
+        "All"
+      ],
+      "title": "zh_realesate"
+    }
+  ],
+  "skills": [
+    {
+      "_createdAt": "2022-05-26T06:12:57Z",
+      "_id": "2e55d14b-d070-4ee0-b556-478ef17aa21d",
+      "_rev": "r2Eai48q670W4lOjZRFD9s",
+      "_type": "skills",
+      "_updatedAt": "2022-05-26T06:12:57Z",
+      "icon": "/content/66bbf9242b1ccffebb5d46f376f5036b527fad48-480x480.webp",
+      "name": "Javascript"
+    },
+    {
+      "_createdAt": "2022-04-17T14:40:17Z",
+      "_id": "739af69b-5f27-4526-a56f-7c3174ef353f",
+      "_rev": "NUCflQCHpsVC5moLKHXt8X",
+      "_type": "skills",
+      "_updatedAt": "2022-04-17T14:40:17Z",
+      "icon": "/content/08ac37aeccf34ea0b7c4649e221679220d7c2ceb-480x480.webp",
+      "name": "Flutter"
+    },
+    {
+      "_createdAt": "2022-04-17T14:53:16Z",
+      "_id": "bca44fd3-91fa-4271-8dcf-11a29cd03ae8",
+      "_rev": "TQ9DwvzJPUrCgUs2A8jNZk",
+      "_type": "skills",
+      "_updatedAt": "2022-04-17T14:53:16Z",
+      "icon": "/content/a804a741fb26f6c236c73086a87cfc9f64106401-480x480.webp",
+      "name": "Git"
+    },
+    {
+      "_createdAt": "2022-04-17T14:40:45Z",
+      "_id": "bffa9db1-7dfb-41f9-9c5e-f31e7242e1d2",
+      "_rev": "NUCflQCHpsVC5moLKHXudd",
+      "_type": "skills",
+      "_updatedAt": "2022-04-17T14:40:45Z",
+      "icon": "/content/d8c8025b1695a3f14f849b99afc71d917ef40813-480x480.webp",
+      "name": "Node JS"
+    },
+    {
+      "_createdAt": "2022-05-26T06:11:23Z",
+      "_id": "ce4f719e-341d-4f82-b891-eb1425ae5cfa",
+      "_rev": "r2Eai48q670W4lOjZRFCBp",
+      "_type": "skills",
+      "_updatedAt": "2022-05-26T06:11:23Z",
+      "icon": "/content/31f11147f89dbd855a9b948e2ce643ea2f41c0a9-480x480.webp",
+      "name": "Html"
+    },
+    {
+      "_createdAt": "2022-04-17T14:39:10Z",
+      "_id": "e72e8e88-229e-48e1-9297-7cf9f3540607",
+      "_rev": "JINGul8Kijez39dd41V9iX",
+      "_type": "skills",
+      "_updatedAt": "2022-04-17T14:39:10Z",
+      "icon": "/content/6551e520e801ab656029527c09265981c06dce33-480x480.webp",
+      "name": "Figma"
+    },
+    {
+      "_createdAt": "2022-04-17T14:38:33Z",
+      "_id": "fa1c0840-2c74-4b33-bf5f-40ef81cc9a16",
+      "_rev": "NUCflQCHpsVC5moLKHXpdJ",
+      "_type": "skills",
+      "_updatedAt": "2022-04-17T14:38:33Z",
+      "icon": "/content/34be54263e18fa2aea611c6b3b388b76e978e7d7-64x64.webp",
+      "name": "React"
+    }
+  ],
+  "experiences": [
+    {
+      "_createdAt": "2022-04-17T15:52:23Z",
+      "_id": "17705024-88e7-499d-af03-51925a93df3c",
+      "_rev": "TQ9DwvzJPUrCgUs2A8n71V",
+      "_type": "experiences",
+      "_updatedAt": "2022-04-17T15:52:23Z",
+      "works": [
+        {
+          "_key": "f9b8cba25ab6",
+          "_type": "workExperience",
+          "company": "SOUTA",
+          "desc": "I worked for SOUTA as a frontend developer",
+          "name": "Frontend developer"
+        },
+        {
+          "_key": "f387e2d9395b",
+          "_type": "workExperience",
+          "company": "ThinkMore",
+          "desc": "I worked at ThinkMore as full stack developer.",
+          "name": "Full stack developer"
+        }
+      ],
+      "year": "2021"
+    },
+    {
+      "_createdAt": "2023-10-10T23:12:07Z",
+      "_id": "21f48408-00fa-449f-820b-e3dd096a6664",
+      "_rev": "LSERvZKGHSf4ikB8ZS6jL7",
+      "_type": "experiences",
+      "_updatedAt": "2023-10-10T23:12:07Z",
+      "works": [
+        {
+          "_key": "5d619a2704f6",
+          "_type": "workExperience",
+          "company": "GP2U/PSYCH2U",
+          "name": "Full Stack Developer"
+        }
+      ],
+      "year": "2022"
+    },
+    {
+      "_createdAt": "2022-04-17T15:49:47Z",
+      "_id": "61a366dc-0f36-41ee-9291-a872e54fd070",
+      "_rev": "LSERvZKGHSf4ikB8ZS6kVP",
+      "_type": "experiences",
+      "_updatedAt": "2023-10-10T23:14:57Z",
+      "works": [
+        {
+          "_key": "c2bcd8e83693",
+          "_type": "workExperience",
+          "company": "GP2U/PSYCH2U",
+          "name": "Technical Lead"
+        }
+      ],
+      "year": "2023"
+    }
+  ],
+  "testimonials": [
+    {
+      "_createdAt": "2022-04-18T07:12:26Z",
+      "_id": "7ccdcdc0-6c50-41b8-85bd-4ca7a0634d0c",
+      "_rev": "JINGul8Kijez39dd41qGft",
+      "_type": "testimonials",
+      "_updatedAt": "2022-04-18T08:10:13Z",
+      "company": "ThinkMore",
+      "feedback": "Frank is an awesome developer. And did lots of work both frontend and backend, He also has good experience in the workings of how to handle works regarding servers, databases, and also system engineering. He also has good team management abilities and is a really dedicated worker. ",
+      "imgUrl": "/content/00534480b9387be9fa9e8eb820b13ddf103cf663-150x150.webp",
+      "name": "Sarah"
+    },
+    {
+      "_createdAt": "2022-04-15T15:23:40Z",
+      "_id": "d5d1960c-2d32-48dd-91a1-cb41f97d65d0",
+      "_rev": "NUCflQCHpsVC5moLKI5JYn",
+      "_type": "testimonials",
+      "_updatedAt": "2022-04-18T08:11:26Z",
+      "company": "SOUTA",
+      "feedback": "Good job! he would be a great option for helping your company in its future growth and success. ",
+      "imgUrl": "/content/b9823fb3bb645623874f932af625cf4fd9613c3f-150x150.webp",
+      "name": "Micheal"
+    }
+  ],
+  "brands": [
+    {
+      "_createdAt": "2022-04-18T08:34:29Z",
+      "_id": "15f76c27-6450-4031-bca3-75b541837894",
+      "_rev": "JINGul8Kijez39dd41qupN",
+      "_type": "brands",
+      "_updatedAt": "2022-04-18T08:34:29Z",
+      "imgUrl": "/content/953cc8804d1fc2d2ae6bd2785210c5c3236f49db-561x505.webp",
+      "name": "ThinkMore"
+    },
+    {
+      "_createdAt": "2022-04-18T08:31:50Z",
+      "_id": "1f7b87d2-5795-4fde-ab4d-f6482be0fcd3",
+      "_rev": "BcWRGDUTDyAqLm9RBeKSOM",
+      "_type": "brands",
+      "_updatedAt": "2022-04-18T08:31:50Z",
+      "imgUrl": "/content/41f5ca50c080bcc40cc3f0a6e4d1375c3a52fe6c-1772x591.webp",
+      "name": "SOUTA"
+    },
+    {
+      "_createdAt": "2023-10-10T23:03:36Z",
+      "_id": "30ea0d0a-949d-45ab-a34c-0ca8558b4e02",
+      "_rev": "HEO9UOJdJLSdzVignPAguw",
+      "_type": "brands",
+      "_updatedAt": "2023-10-10T23:08:20Z",
+      "imgUrl": "/content/55984351b62eb6665b5bec03073103996be3d45a-705x135.webp",
+      "name": "PSYCH2U"
+    },
+    {
+      "_createdAt": "2023-10-10T23:09:05Z",
+      "_id": "bbb91b7c-0889-4d61-9919-2fed5af323f6",
+      "_rev": "LSERvZKGHSf4ikB8ZS6hhN",
+      "_type": "brands",
+      "_updatedAt": "2023-10-10T23:09:05Z",
+      "imgUrl": "/content/391de7540667e284b1146f1b52d653290561becc-340x129.webp",
+      "name": "GP2U"
+    }
+  ]
+}
